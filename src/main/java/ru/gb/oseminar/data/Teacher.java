@@ -11,6 +11,11 @@ public class Teacher extends User{
         super(firstName, secondName, patronymic, dateOfBirth);
     }
 
+    public Teacher(String firstName, String secondName, String patronymic, LocalDate dateOfBirth, Long countMaxId) {
+        super(firstName, secondName, patronymic, dateOfBirth);
+        this.teacherId = countMaxId;
+    }
+
     public Long getTeacherId() {
         return teacherId;
     }
