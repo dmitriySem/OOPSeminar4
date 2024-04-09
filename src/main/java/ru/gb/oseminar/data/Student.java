@@ -5,6 +5,7 @@ import java.time.LocalDate;
 public class Student extends User implements Comparable<Student>{
     private Long studentId;
 
+    //SOLID
     public Student(String firstName, String secondName, String patronymic, LocalDate dateOfBirth) {
         super(firstName, secondName, patronymic, dateOfBirth);
     }
