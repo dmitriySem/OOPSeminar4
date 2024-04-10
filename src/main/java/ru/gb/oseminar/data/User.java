@@ -2,6 +2,8 @@ package ru.gb.oseminar.data;
 
 import java.time.LocalDate;
 
+//принцип Single Responsibility Principle
+//(Принцип единственной обязанности)
 public class User {
     private String firstName;
     private String secondName;

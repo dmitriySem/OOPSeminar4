@@ -10,6 +10,7 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
+//        (Принцип единственной обязанности)
 public class StudentGroupService {
     private StudentGroup studentGroup;
 

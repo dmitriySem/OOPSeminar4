@@ -7,6 +7,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+//        (Принцип единственной обязанности)
 public class TeacherService implements UserService<Teacher>{
 
     private List<Teacher> teachers;

@@ -6,6 +6,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+//        (Принцип единственной обязанности)
 public class StudentService implements UserService<Student> {
 
     private final List<Student> students;

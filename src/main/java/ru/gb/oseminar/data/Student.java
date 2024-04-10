@@ -2,6 +2,8 @@ package ru.gb.oseminar.data;
 
 import java.time.LocalDate;
 
+//принцип Open-Closed Principle
+// (Принцип открытости/закрытости)
 public class Student extends User implements Comparable<Student>{
     private Long studentId;
 

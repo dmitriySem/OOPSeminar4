@@ -1,7 +1,8 @@
 package ru.gb.oseminar.data;
 
 import java.util.List;
-
+//принцип  Single Responsibility Principle
+//(Принцип единственной обязанности)
 public class StudentGroup implements Iterable<Student>{
     private List<Student> students;
     private Teacher teacher;
@@ -10,7 +11,7 @@ public class StudentGroup implements Iterable<Student>{
         this.students = students;
         this.teacher = teacher;
     }
-    //SOLID
+
     public List<Student> getStudents() {
         return students;
     }

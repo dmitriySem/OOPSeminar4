@@ -10,6 +10,8 @@ import java.time.LocalDate;
 import java.util.Collections;
 import java.util.List;
 
+//Single Responsibility Principle
+//Dependecy Inversion Principle
 public class StudentController implements UserController<Student>{
 
     private final StudentService dataService = new StudentService();

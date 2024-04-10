@@ -4,7 +4,8 @@ import ru.gb.oseminar.data.Teacher;
 
 import java.util.List;
 import java.util.logging.Logger;
-
+//Single Responsibility Principle
+//(Принцип единственной обязанности)
 public class TeacherView implements UserView<Teacher>{
     Logger logger = Logger.getLogger(StudentView.class.getName());
     @Override

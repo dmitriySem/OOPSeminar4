@@ -1,7 +1,8 @@
 package ru.gb.oseminar.data;
 
 import java.util.Comparator;
-
+//Interface Segregation Principle
+//(Принцип разделения интерфейсов)
 public class UserComparator<T extends User> implements Comparator<T> {
 
     @Override

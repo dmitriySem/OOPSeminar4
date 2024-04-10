@@ -2,7 +2,8 @@ package ru.gb.oseminar.data;
 
 import java.util.Iterator;
 import java.util.List;
-
+//принцип Interface Segregation Principle
+//(Принцип разделения интерфейсов)
 public class StudentGroupIterator implements Iterator<Student> {
 
     private int counter;

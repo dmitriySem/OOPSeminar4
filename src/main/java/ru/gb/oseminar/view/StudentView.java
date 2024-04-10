@@ -5,7 +5,8 @@ import ru.gb.oseminar.data.StudentGroup;
 
 import java.util.List;
 import java.util.logging.Logger;
-
+//Single Responsibility Principle
+//(Принцип единственной обязанности)
 public class StudentView implements UserView<Student>{
 
     Logger logger = Logger.getLogger(StudentView.class.getName());
